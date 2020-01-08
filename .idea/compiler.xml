@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="serice-feign" />
         <module name="EurekaClient" />
         <module name="EurekaServer" />
         <module name="service-ribbon" />
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EurekaClient" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="serice-feign" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
     </option>
   </component>
